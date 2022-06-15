@@ -1,6 +1,7 @@
 import math
 
-r = int(input())
+def circle_area(r):
+    area = math.pi * math.pow(r, 2)
+    return area
 
-area = math.pi * math.pow(r, 2)
-print(area)
+print(circle_area(int(input())))

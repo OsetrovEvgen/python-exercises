@@ -1,3 +1,7 @@
 import sys
 
-print(sys.version)
+
+def sys_ver():
+    return(sys.version)
+
+print(sys_ver())

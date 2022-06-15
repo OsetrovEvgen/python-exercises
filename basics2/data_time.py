@@ -1,3 +1,6 @@
 import datetime
 
-print(datetime.datetime.now())
+def d_t():
+    return (datetime.datetime.now())
+
+print(d_t())
