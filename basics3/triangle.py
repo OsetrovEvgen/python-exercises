@@ -42,3 +42,4 @@ def module(v1: Vector):
 p = Point(2.5, 3)
 tr = Triangle(Point(2, 1), Point(5, 3), Point(1, 6))
 print(point_inside_triangle(p, tr))
+
